@@ -20,13 +20,14 @@ public class Collisions : MonoBehaviour
    private void OnTriggerEnter(Collider other){
     if(other.gameObject.tag == "Point"){
         _infoJoueur.nbPointsMelon--;
-        Debug.Log("asfwfa");
+        _infoJoueur.nbPoints++;
+       
         Destroy(other.gameObject);
         //_audioSource.Play();
     }
     else if(other.gameObject.tag == "Untagged"){
         _infoJoueur.nbPoints--;
-        Debug.Log("asfwfa");
+       
         Destroy(other.gameObject);
         //_audioSource.Play();
     }
