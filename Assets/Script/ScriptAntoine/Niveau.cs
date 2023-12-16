@@ -19,6 +19,8 @@ public class Niveau : MonoBehaviour
 
     [SerializeField] private GameObject _porte;
 
+    [SerializeField] private Material porteActive;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,7 +34,8 @@ public class Niveau : MonoBehaviour
     }
     public void VerifierVictoire(){
         if(_infoJoueur.nbPointsMelon == 0){
-            //_porte.setActive(false);
+            _porte.GetComponent<MeshRenderer> ().material = porteActive;
+            _porte.GetComponent<ZoneLevel3>().enabled = true;
         }
     }
 
