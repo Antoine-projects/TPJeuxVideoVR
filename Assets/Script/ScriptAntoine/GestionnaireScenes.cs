@@ -33,7 +33,7 @@ public class GestionnaireScenes : MonoBehaviour
     {
         if (sceneIndex > 0)
         {
-            SceneManager.LoadScene(sceneIndex - 2);
+            SceneManager.LoadScene(sceneIndex);
         }
     }
 

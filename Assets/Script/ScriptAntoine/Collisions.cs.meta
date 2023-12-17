@@ -3,7 +3,12 @@ guid: dd142841ed9e8ef40bb36f08cd2050b2
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - _infoJoueur: {instanceID: 0}
+  - _scriptNiveau: {instanceID: 0}
+  - _sonPoint: {fileID: 8300000, guid: c30315c03969e6a4eb68cf707ecba2fe, type: 3}
+  - _sonErreur: {fileID: 8300000, guid: b9a5e09f8f945bf40ac48ba9a689ab5e, type: 3}
+  - _panier: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
