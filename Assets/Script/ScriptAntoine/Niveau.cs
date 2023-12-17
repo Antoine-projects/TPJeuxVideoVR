@@ -17,14 +17,21 @@ public class Niveau : MonoBehaviour
 
     [SerializeField] private TMP_Text _textNombreDeMelons;
 
+    [Header("Information pour script")]
     [SerializeField] private GameObject _porte;
 
     [SerializeField] private Material porteActive;
+
+    [Header("Information pour audio")]
+
+    [SerializeField] private AudioClip _sonPorte;
+    private AudioSource _audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
         _textNomJoueur.text = _infoJoueur.nomJoueur;
+        _audioSource = _porte.GetComponent<AudioSource>();
         
     }
     void Update(){
@@ -33,9 +40,12 @@ public class Niveau : MonoBehaviour
         VerifierVictoire();
     }
     public void VerifierVictoire(){
-        if(_infoJoueur.nbPointsMelon == 0){
+        if(_infoJoueur.nbPointsMelon <= 0){
+            
             _porte.GetComponent<MeshRenderer> ().material = porteActive;
             _porte.GetComponent<ZoneLevel3>().enabled = true;
+            _audioSource.clip = _sonPorte;
+            _audioSource.Play();
         }
     }
 

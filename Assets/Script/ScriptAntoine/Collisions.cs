@@ -9,12 +9,15 @@ public class Collisions : MonoBehaviour
 
     [SerializeField] private Niveau _scriptNiveau;
 
-    [SerializeField] private GameObject _sonPoint;
+    [SerializeField] private AudioClip _sonPoint;
 
+    [SerializeField] private AudioClip _sonErreur;
+
+    [SerializeField] private GameObject _panier;
     private AudioSource _audioSource;
 
    void Start(){
-    _audioSource = _sonPoint.GetComponent<AudioSource>();
+    _audioSource = _panier.GetComponent<AudioSource>();
    } 
 
    private void OnTriggerEnter(Collider other){
@@ -22,11 +25,17 @@ public class Collisions : MonoBehaviour
         _infoJoueur.nbPointsMelon--;
         _infoJoueur.nbPoints++;
        
+        _audioSource.clip = _sonPoint;
+        _audioSource.Play();
+
         Destroy(other.gameObject);
         //_audioSource.Play();
     }
     else if(other.gameObject.tag == "Untagged"){
         _infoJoueur.nbPoints--;
+
+        _audioSource.clip = _sonErreur;
+        _audioSource.Play();
        
         Destroy(other.gameObject);
         //_audioSource.Play();
