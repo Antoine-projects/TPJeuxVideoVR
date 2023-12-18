@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro.unity
     guid: 26d139fd5298dc2439db038c3342bb7c
   - enabled: 1
-    path: Assets/Scenes/NiveauDepart 1.unity
-    guid: d0637f7e50e812a498411f79a691fabf
+    path: Assets/Scenes/NiveauFrederic.unity
+    guid: 3857db8ac4576d947a89c713c6be4c96
   - enabled: 1
     path: Assets/Scenes/NiveauAntoineDaoust 1.unity
     guid: 83dba68391151ea4093f39a83fc43860
