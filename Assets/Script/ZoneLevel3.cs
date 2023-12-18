@@ -12,9 +12,10 @@ public class ZoneLevel3 : MonoBehaviour
         _levelManager = LevelManager._Instance;
     }
 
-
+    
     private void OnTriggerEnter(Collider other)
     {
+        if (!this.enabled) return;
         _levelManager.LoadAsychScene("NiveauLironShpak");
     }
 

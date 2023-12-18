@@ -42,7 +42,11 @@ public class LevelManager : MonoBehaviour
         LoadScene("Level01");
     }
     public void LoadMainMenu(){
-        LoadScene("MainMenu");
+        LoadScene("Intro");
+    }
+
+    public void ReloadMelons(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void QuitGame(){
