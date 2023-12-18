@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b07b02e5e24d814b8fd467cde24ed0f, type: 3}
   m_Name: InfosNiveau
   m_EditorClassIdentifier: 
-  temps: 173.97684
+  temps: 171.85652
   tempsInitial: 180

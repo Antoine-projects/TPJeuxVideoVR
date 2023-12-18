@@ -20,7 +20,7 @@ public class AffichageDecompte : MonoBehaviour
 
         if(temps <0){
             temps = 0;
-            _scriptNiveau.Defaite();
+            
         }
 
 

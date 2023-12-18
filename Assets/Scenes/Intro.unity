@@ -181,10 +181,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Antoine Daoust\nFr\xE9d\xE9ric Landry-Chevrier\nLiron Shpak\nBrendan Frappier"
+  m_text: "Antoine Daoust\nFr\xE9d\xE9ric Landry-Chevrier\nLiron Shpak\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aad6a5d328e35f044a7300cf5e5495c3, type: 2}
+  m_sharedMaterial: {fileID: 1421075344810147631, guid: aad6a5d328e35f044a7300cf5e5495c3,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1204,7 +1205,7 @@ RectTransform:
   m_GameObject: {fileID: 374503251}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.036}
-  m_LocalScale: {x: 0.015172308, y: 0.015172308, z: 0.015172308}
+  m_LocalScale: {x: 0.025363548, y: 0.025363548, z: 0.025363548}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 380785057}
@@ -1237,8 +1238,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Seul dans les montagnes
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aad6a5d328e35f044a7300cf5e5495c3, type: 2}
+  m_sharedMaterial: {fileID: 1421075344810147631, guid: aad6a5d328e35f044a7300cf5e5495c3,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2787,8 +2789,9 @@ MonoBehaviour:
     de montagnes. Trouvez un refuge rapidemment avant que quelque chose de mauvais
     arrive."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aad6a5d328e35f044a7300cf5e5495c3, type: 2}
+  m_sharedMaterial: {fileID: 1421075344810147631, guid: aad6a5d328e35f044a7300cf5e5495c3,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3460,8 +3463,9 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aad6a5d328e35f044a7300cf5e5495c3, type: 2}
+  m_sharedMaterial: {fileID: 1421075344810147631, guid: aad6a5d328e35f044a7300cf5e5495c3,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3628,11 +3632,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 24100000, guid: b1f5acbdde5a58e44b262944fff83936, type: 2}
         m_TargetAssemblyTypeName: UnityEditor.Audio.AudioMixerController, UnityEditor.CoreModule
-        m_MethodName: 
-        m_Mode: 1
+        m_MethodName: set_currentViewIndex
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

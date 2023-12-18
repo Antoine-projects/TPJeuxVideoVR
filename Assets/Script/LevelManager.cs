@@ -45,6 +45,10 @@ public class LevelManager : MonoBehaviour
         LoadScene("Intro");
     }
 
+    public void ReloadMelons(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
     public void QuitGame(){
         Debug.Log("lol");
         Application.Quit();
