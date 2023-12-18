@@ -15,7 +15,7 @@ public class ZoneLevel2 : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        _levelManager.LoadAsychScene("NiveauAntoineDaoust");
+        _levelManager.LoadAsychScene("NiveauAntoineDaoust 1");
     }
 
     // Update is called once per frame
