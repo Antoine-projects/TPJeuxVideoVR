@@ -1808,8 +1808,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 786.41, y: 433.24}
-  m_SizeDelta: {x: 347.18, y: 128.065}
+  m_AnchoredPosition: {x: 759.27997, y: 427}
+  m_SizeDelta: {x: 401.44, y: 128.065}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &76496986
 MonoBehaviour:
@@ -1848,8 +1848,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0:00
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aad6a5d328e35f044a7300cf5e5495c3, type: 2}
+  m_sharedMaterial: {fileID: 1421075344810147631, guid: aad6a5d328e35f044a7300cf5e5495c3,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1909,7 +1910,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 15.410355, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -8328,6 +8329,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 841713248}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &319221256 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 464707713493940649, guid: a163583a1adf07f48b4dc414420c0249,
+    type: 3}
+  m_PrefabInstance: {fileID: 841713248}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52525f942dee64f428b6387acc86f4a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &321373204
 GameObject:
   m_ObjectHideFlags: 0
@@ -19212,8 +19225,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Placer les melons dans le panier en dessous
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aad6a5d328e35f044a7300cf5e5495c3, type: 2}
+  m_sharedMaterial: {fileID: 1421075344810147631, guid: aad6a5d328e35f044a7300cf5e5495c3,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24600,7 +24614,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 759.28, y: -473.48}
+  m_AnchoredPosition: {x: 759.28, y: -459.43}
   m_SizeDelta: {x: 292.9242, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &764451915
@@ -24625,8 +24639,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Antoine Daoust
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aad6a5d328e35f044a7300cf5e5495c3, type: 2}
+  m_sharedMaterial: {fileID: 1421075344810147631, guid: aad6a5d328e35f044a7300cf5e5495c3,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24686,7 +24701,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -20.54744, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -27513,8 +27528,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Points:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aad6a5d328e35f044a7300cf5e5495c3, type: 2}
+  m_sharedMaterial: {fileID: 1421075344810147631, guid: aad6a5d328e35f044a7300cf5e5495c3,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -32452,7 +32468,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -705, y: -478}
+  m_AnchoredPosition: {x: -707.33026, y: -453.30997}
   m_SizeDelta: {x: 439.3872, y: 62.2376}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &943339511
@@ -32477,8 +32493,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Melons \xE0 trouver :"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aad6a5d328e35f044a7300cf5e5495c3, type: 2}
+  m_sharedMaterial: {fileID: 1421075344810147631, guid: aad6a5d328e35f044a7300cf5e5495c3,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -32538,7 +32555,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -56.504654, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -41018,7 +41035,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -453.5601, y: 427.00024}
+  m_AnchoredPosition: {x: -419, y: 427.00003}
   m_SizeDelta: {x: 202.7329, y: 134.7252}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1172034588
@@ -41045,8 +41062,9 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aad6a5d328e35f044a7300cf5e5495c3, type: 2}
+  m_sharedMaterial: {fileID: 1421075344810147631, guid: aad6a5d328e35f044a7300cf5e5495c3,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -50309,7 +50327,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -406.67242, y: -478}
+  m_AnchoredPosition: {x: -365, y: -453.31}
   m_SizeDelta: {x: 138.6693, y: 123.2011}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1462378294
@@ -50334,8 +50352,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 5
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: aad6a5d328e35f044a7300cf5e5495c3, type: 2}
+  m_sharedMaterial: {fileID: 1421075344810147631, guid: aad6a5d328e35f044a7300cf5e5495c3,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -73643,9 +73662,9 @@ MonoBehaviour:
   aLaFinDuTemps:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 982454162}
-        m_TargetAssemblyTypeName: GestionnaireScenes, Assembly-CSharp
-        m_MethodName: Recommence
+      - m_Target: {fileID: 319221256}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: ReloadMelons
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
