@@ -4704,7 +4704,7 @@ PrefabInstance:
     - target: {fileID: 7768293356528388250, guid: 558fa0b49e02c9f4aacf29873b561b95,
         type: 3}
       propertyPath: m_Name
-      value: -----VR2----- 1
+      value: '-----VR----- '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16411,6 +16411,7 @@ GameObject:
   - component: {fileID: 1646238198}
   - component: {fileID: 1646238197}
   - component: {fileID: 1646238196}
+  - component: {fileID: 1646238200}
   m_Layer: 0
   m_Name: Trigger
   m_TagString: Untagged
@@ -16426,7 +16427,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1646238194}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.512, y: 0.521, z: -0}
+  m_LocalPosition: {x: -1.278, y: 0.52, z: -0}
   m_LocalScale: {x: 1.55, y: 1, z: 2.79}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16517,6 +16518,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1646238194}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1646238200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646238194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bfe036f4dbcb1c479e9239a9945b218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1662281545
 GameObject:
   m_ObjectHideFlags: 0

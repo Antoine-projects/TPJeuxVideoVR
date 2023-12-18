@@ -11,12 +11,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NiveauDepart 1.unity
     guid: d0637f7e50e812a498411f79a691fabf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/NiveauAntoineDaoust.unity
     guid: a9a178fd98d32a34cbb2652d9268fc0e
   - enabled: 1
     path: Assets/Scenes/NiveauLironShpak.unity
     guid: 4f4a36d34060fd440a71ff167ea4569d
+  - enabled: 1
+    path: Assets/Scenes/Fin.unity
+    guid: 62287b91ec2ea2c48809af63bdb6c69a
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 99e01671edcc61a4cade24bfbbacd203,
       type: 2}
